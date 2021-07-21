@@ -11,10 +11,11 @@ body {
 	min-height: 100%;
 	color: white;
 }
+
 body {
 	background: rgb(41, 41, 41) 0%;
-	background-repeat: no-repeat;
 }
+
 p {
 	margin: 16px auto;
 	line-height: 1.5em;
@@ -25,11 +26,19 @@ p {
   max-width: 1200px;
   margin: 0 auto;
 } */
+
 nav {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	height: 80px;
 	margin: 40px auto;
+	color: white;
+	position: sticky;
+	top: 0;
+	height: 80px;
+	background: rgb(41, 41, 41) 0%;
 }
+
 nav .links {
 	display: inline-block;
 	text-align: right;
@@ -41,6 +50,13 @@ nav a {
 	padding-bottom: 8px;
 	border-bottom: 3px solid transparent;
 }
+
+a,
+a:focus,
+a:active {
+	color: inherit;
+}
+
 nav a:hover {
 	border-color: white;
 }

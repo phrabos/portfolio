@@ -5,12 +5,11 @@ import '../styles/global.css';
 
 const IndexPage = () => {
 	return (
-		<main>
-			<title>Home Page</title>
+		<>
 			<Navbar />
-			<h1>Patrick Hrabos</h1>
-			<h2>Software Engineer</h2>
-			<section>
+			<div className="wrapper">
+				<h1>Patrick Hrabos</h1>
+				<h2>Software Engineer</h2>
 				<h1 id="about">About</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
@@ -60,8 +59,6 @@ const IndexPage = () => {
 					faucibus ac. Cras ultricies nulla a quam interdum, ac porttitor metus
 					laoreet. Donec eget bibendum tellus, vitae laoreet lectus.
 				</p>
-			</section>
-			<section>
 				<h1 id="projects">Projects</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
@@ -75,8 +72,6 @@ const IndexPage = () => {
 					faucibus ac. Cras ultricies nulla a quam interdum, ac porttitor metus
 					laoreet. Donec eget bibendum tellus, vitae laoreet lectus.
 				</p>
-			</section>
-			<section>
 				<h1 id="contact">Contact</h1>
 				<form onSubmit={() => console.log('works')}>
 					<input type="text" placeholder="name" />
@@ -84,8 +79,8 @@ const IndexPage = () => {
 					<textarea placeholder="message..." rows="5" cols="60" />
 					<button className="form-button">submit</button>
 				</form>
-			</section>
-		</main>
+			</div>
+		</>
 	);
 };
 
