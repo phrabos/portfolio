@@ -1,37 +1,17 @@
 import * as React from 'react';
 import { Navbar } from '../components/Navbar';
+import '../styles/form.css';
+import '../styles/global.css';
 
-// styles
-const pageStyles = {
-	color: '#232129',
-	padding: 96,
-	fontFamily: '-apple-system, Roboto, sans-serif, serif',
-};
-const headingStyles = {
-	marginTop: 0,
-	marginBottom: 0,
-	maxWidth: 320,
-};
-
-const sectionStyles = {
-	marginTop: 400,
-	marginBottom: 400,
-	maxWidth: 320,
-};
-
-// data
-
-// markup
 const IndexPage = () => {
 	return (
-		<main style={pageStyles}>
+		<main>
 			<title>Home Page</title>
 			<Navbar />
-			<h1 style={headingStyles}>This will be my Gatsby portfolio site...</h1>
-			<section style={sectionStyles}>
-				<h1 id="about" style={headingStyles}>
-					About
-				</h1>
+			<h1>Patrick Hrabos</h1>
+			<h2>Software Engineer</h2>
+			<section>
+				<h1 id="about">About</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
 					varius tellus sit amet sagittis. In nec elit sodales, ornare nunc sed,
@@ -81,10 +61,8 @@ const IndexPage = () => {
 					laoreet. Donec eget bibendum tellus, vitae laoreet lectus.
 				</p>
 			</section>
-			<section style={sectionStyles}>
-				<h1 style={headingStyles} id="projects">
-					Projects
-				</h1>
+			<section>
+				<h1 id="projects">Projects</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
 					varius tellus sit amet sagittis. In nec elit sodales, ornare nunc sed,
@@ -98,15 +76,13 @@ const IndexPage = () => {
 					laoreet. Donec eget bibendum tellus, vitae laoreet lectus.
 				</p>
 			</section>
-			<section style={sectionStyles}>
-				<h1 id="contact" style={headingStyles}>
-					Contact
-				</h1>
+			<section>
+				<h1 id="contact">Contact</h1>
 				<form onSubmit={() => console.log('works')}>
-					<input placeholder="name" />
-					<input placeholder="email" />
-					<input placeholder="message" />
-					<button>submit</button>
+					<input type="text" placeholder="name" />
+					<input type="email" placeholder="email" />
+					<textarea placeholder="message..." rows="5" cols="60" />
+					<button className="form-button">submit</button>
 				</form>
 			</section>
 		</main>
