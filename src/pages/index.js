@@ -61,30 +61,18 @@ const IndexPage = () => {
 				</p>
 				<h1 id="projects">Projects</h1>
 				<h3>Socket Jockey</h3>
+				<img src="https://jakethrasher.netlify.app/assets/socketjockey.png"/>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
-					varius tellus sit amet sagittis. In nec elit sodales, ornare nunc sed,
-					tristique leo. Donec non lacus sem. Morbi rutrum nec purus non
-					facilisis. Donec molestie sagittis efficitur. Etiam nec interdum
-					lacus. Donec vel urna quis ex luctus tincidunt non sollicitudin
-					sapien. Sed non risus et metus pharetra scelerisque. Pellentesque
-					habitant morbi tristique senectus et netus et malesuada fames ac
-					turpis egestas. Vestibulum mattis urna mi, at vestibulum libero
-					faucibus ac. Cras ultricies nulla a quam interdum, ac porttitor metus
-					laoreet. Donec eget bibendum tellus, vitae laoreet lectus.
+					Collaboratively composing music with physics and the collision of time and space. 
+					Users can choose a solo or collaborative room where they drag and drop sonically charged
+					shapes and control the sounds by adjusting the physics engine. 
+
 				</p>
 				<h3>Shame B0t</h3>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
-					varius tellus sit amet sagittis. In nec elit sodales, ornare nunc sed,
-					tristique leo. Donec non lacus sem. Morbi rutrum nec purus non
-					facilisis. Donec molestie sagittis efficitur. Etiam nec interdum
-					lacus. Donec vel urna quis ex luctus tincidunt non sollicitudin
-					sapien. Sed non risus et metus pharetra scelerisque. Pellentesque
-					habitant morbi tristique senectus et netus et malesuada fames ac
-					turpis egestas. Vestibulum mattis urna mi, at vestibulum libero
-					faucibus ac. Cras ultricies nulla a quam interdum, ac porttitor metus
-					laoreet. Donec eget bibendum tellus, vitae laoreet lectus.
+					A Discord bot designed to increase productivity by restricting access to chat 
+					channels for a user-specified time limit. I coded the countdown timer commands and 
+					logic, the exit command, and functions to change the users nickname.
 				</p>
 				<h3>Taurus Trading</h3>
 				<p>
