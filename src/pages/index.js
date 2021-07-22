@@ -12,16 +12,8 @@ const IndexPage = () => {
 				<h2>Software Engineer</h2>
 				<h1 id="about">About</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
-					varius tellus sit amet sagittis. In nec elit sodales, ornare nunc sed,
-					tristique leo. Donec non lacus sem. Morbi rutrum nec purus non
-					facilisis. Donec molestie sagittis efficitur. Etiam nec interdum
-					lacus. Donec vel urna quis ex luctus tincidunt non sollicitudin
-					sapien. Sed non risus et metus pharetra scelerisque. Pellentesque
-					habitant morbi tristique senectus et netus et malesuada fames ac
-					turpis egestas. Vestibulum mattis urna mi, at vestibulum libero
-					faucibus ac. Cras ultricies nulla a quam interdum, ac porttitor metus
-					laoreet. Donec eget bibendum tellus, vitae laoreet lectus.
+					I am a software engineer with a background crunching numbers and raising capital as a skilled and accomplished accountant 					where I gained valuable business experience and problem-solving skills.  My passion for coding began as a kid, writing basic 					websites in HTML. I am excited to be able to merge my business knowledge into a career as a software engineer. Outside of work, I 				am an avid runner and by grinding through ultra-endurance feats I have learned lessons in perseverance, discipline, and dedication 				which I have used to take on challenging projects in the workforce. I am on a never-ending quest to learn everything. 
+
 				</p>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
