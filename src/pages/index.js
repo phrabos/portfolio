@@ -61,23 +61,16 @@ const IndexPage = () => {
 
 				</p>
 				<h3>Shame B0t</h3>
+				<img src="https://via.placeholder.com/500x350"/>
 				<p>
 					A Discord bot designed to increase productivity by restricting access to chat 
-					channels for a user-specified time limit. I coded the countdown timer commands and 
-					logic, the exit command, and functions to change the users nickname.
+					channels for a user-specified time limit. Built remotely with a team of four people
+					over a four-day sprint.
 				</p>
 				<h3>Taurus Trading</h3>
+				<img src="https://via.placeholder.com/500x350"/>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
-					varius tellus sit amet sagittis. In nec elit sodales, ornare nunc sed,
-					tristique leo. Donec non lacus sem. Morbi rutrum nec purus non
-					facilisis. Donec molestie sagittis efficitur. Etiam nec interdum
-					lacus. Donec vel urna quis ex luctus tincidunt non sollicitudin
-					sapien. Sed non risus et metus pharetra scelerisque. Pellentesque
-					habitant morbi tristique senectus et netus et malesuada fames ac
-					turpis egestas. Vestibulum mattis urna mi, at vestibulum libero
-					faucibus ac. Cras ultricies nulla a quam interdum, ac porttitor metus
-					laoreet. Donec eget bibendum tellus, vitae laoreet lectus.
+					Taurus Trading is a mock portfolio and stock market research app that implements a live social media feed to gauge market sentiment. I coded the full-stack social media feature in addition to the functions and rendering of the trending stocks feature.
 				</p>
 				<h3>Nutrizone</h3>
 				<img src="https://jakethrasher.netlify.app/assets/nutrizone.png"/>
