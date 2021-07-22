@@ -33,8 +33,8 @@ p {
 } */
 
 nav {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: flex;
+	/* grid-template-columns: 1fr 1fr; */
 	margin-top: 0px;
 	margin-bottom: 40px;
 	margin-left: auto;
