@@ -8,11 +8,11 @@ const IndexPage = () => {
 		<>
 			<Navbar />
 			<div className="wrapper">
-				<h1>Patrick Hrabos</h1>
-				<h2>Software Engineer</h2>
+				<h1 style={{font-size: "8rem"}}>Patrick Hrabos</h1>
+				<h2 style={{font-size: "4rem"}}>Software engineer passionate about the process of coding, from planning to deployment and learning along the way.</h2>
 				<h1 id="about">About</h1>
 				<p>
-					I am a software engineer with a background crunching numbers and raising capital as a skilled and accomplished accountant 					where I gained valuable business experience and problem-solving skills.  My passion for coding began as a kid, writing basic 					websites in HTML. I am excited to be able to merge my business knowledge into a career as a software engineer. Outside of work, I 				am an avid runner and by grinding through ultra-endurance feats I have learned lessons in perseverance, discipline, and dedication 				which I have used to take on challenging projects in the workforce. I am on a never-ending quest to learn everything. 
+					I am a software engineer with a background crunching numbers and raising capital as a skilled and accomplished accountant where I gained valuable business experience and problem-solving skills.  My passion for coding began as a kid, writing basic 					websites in HTML. I am excited to be able to merge my business knowledge into a career as a software engineer. Outside of work, I 				am an avid runner and by grinding through ultra-endurance feats I have learned lessons in perseverance, discipline, and dedication 				which I have used to take on challenging projects in the workforce. I am on a never-ending quest to learn everything. 
 
 				</p>
 				<p>
