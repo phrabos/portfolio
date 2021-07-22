@@ -9,3 +9,9 @@
 	width: 85vw;
 	margin: 0 auto;
 }
+
+.arrow {
+	/* cursor: pointer; */
+	position: absolute;
+	bottom: 0;
+}

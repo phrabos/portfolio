@@ -1,4 +1,6 @@
 import React from 'react';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
+import { BsArrowDownShort } from 'react-icons/bs';
 import '../styles/top.css';
 
 export const Top = () => {
@@ -9,6 +11,9 @@ export const Top = () => {
 				Software engineer passionate about the process of coding, from planning
 				to deployment and learning along the way.
 			</h2>
+			<AnchorLink to="/#about">
+				<BsArrowDownShort size="4rem" style={{ color: 'white' }} />
+			</AnchorLink>
 		</section>
 	);
 };
