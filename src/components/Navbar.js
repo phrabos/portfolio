@@ -1,6 +1,6 @@
 import React from 'react';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
-import '../styles/global.css';
+import '../styles/nav.css';
 
 export const Navbar = () => {
 	return (

@@ -26,54 +26,17 @@ p {
 	line-height: 1.5em;
 }
 
-/* layout & nav */
-/* .layout {
-  max-width: 1200px;
-  margin: 0 auto;
-} */
-
-nav {
-	display: flex;
-	justify-content: center;
-	/* grid-template-columns: 1fr 1fr; */
-	margin-top: 0px;
-	margin-bottom: 40px;
-	margin-left: auto;
-	margin-right: auto;
-	color: white;
-	position: sticky;
-	top: 0;
-	height: 80px;
-	background: rgb(41, 41, 41) 0%;
-}
-
-.wrapper {
+main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-nav a {
-	margin-left: 20px;
-	font-weight: 400;
-	padding-bottom: 8px;
-	border-bottom: 3px solid transparent;
-}
-
-a,
-a:focus,
-a:active {
-	color: inherit;
-}
-
-nav a:hover {
-	border-color: white;
-}
-
 img {
 	height: 350px;
 	width: 500px;
+	border-radius: 4px;
 }
 
 .bio-photo {
