@@ -1,7 +1,9 @@
 import * as React from 'react';
+import { Bio } from '../components/Bio';
 import { Contact } from '../components/Contact';
 import { Header } from '../components/Header';
 import { Navbar } from '../components/Navbar';
+import { Project } from '../components/Project';
 import { Top } from '../components/Top';
 import '../styles/global.css';
 
@@ -12,64 +14,48 @@ const IndexPage = () => {
 			<main>
 				<Top />
 				<Header id="about">About</Header>
-				<p>
-					I have a background raising capital as a skilled and accomplished
-					accountant. I gained valuable business experience and teamwork skills
-					by solving the daily challenges of growth that start-up companies
-					often face. I have a well-rounded approach to timely solving big
-					problems by breaking them down into small, manageable pieces and being
-					diligent throughout the process.
-				</p>
-				<p>
-					When I am not coding I like to run long distances, observe nature,
-					travel, and sip the best loose-leaf teas I can find. I am on a
-					never-ending quest to learn everything.
-				</p>
-				<img
-					className="bio-photo"
-					src="https://avatars.githubusercontent.com/u/73199651?s=400&u=d36d92e05c949994580702381836a52f7e512eb1&v=4"
-					alt=""
-				/>
-
+				<Bio />
 				<Header id="projects">Projects</Header>
-				<h3>Socket Jockey</h3>
-				<img
-					src="https://jakethrasher.netlify.app/assets/socketjockey.png"
-					alt=""
-				/>
-				<p>
+				<Project
+					name="Socket Jockey"
+					image="https://jakethrasher.netlify.app/assets/socketjockey.png"
+					alt="socket-jockey-screenshot"
+				>
 					Collaboratively composing music with physics and the collision of time
 					and space. Users can choose a solo or collaborative room where they
 					drag and drop sonically charged shapes and control the sounds by
 					adjusting the physics engine.
-				</p>
-				<h3>Shame B0t</h3>
-				<img src="https://via.placeholder.com/500x350" alt="" />
-				<p>
+				</Project>
+				<Project
+					name="Shame B0t"
+					image="https://via.placeholder.com/500x350"
+					alt="shame-bot-logo"
+				>
 					A Discord bot designed to increase productivity by restricting access
 					to chat channels for a user-specified time limit. Built remotely with
 					a team of four people over a four-day sprint.
-				</p>
-				<h3>Taurus Trading</h3>
-				<img src="https://via.placeholder.com/500x350" alt="" />
-				<p>
+				</Project>
+				<Project
+					name="Taurus Trading"
+					image="https://via.placeholder.com/500x350"
+					alt="taurus-trading-logo"
+				>
 					Taurus Trading is a mock portfolio and stock market research app that
 					implements a live social media feed to gauge market sentiment. I coded
 					the full-stack social media feature in addition to the functions and
 					rendering of the trending stocks feature.
-				</p>
-				<h3>Nutrizone</h3>
-				<img
-					src="https://jakethrasher.netlify.app/assets/nutrizone.png"
-					alt=""
-				/>
-				<p>
+				</Project>
+				<Project
+					name="Nutrizone"
+					image="https://jakethrasher.netlify.app/assets/nutrizone.png"
+					alt="nutrizone-screenshot"
+				>
 					Nutrizone helps users track their daily caloric intake based on their
 					preferred diet type. We provide tabular data and bar charts built with
 					CanvasJS to help the user meet their daily macronutrient goals. Built
 					remotely with a team of four people over a four-day sprint using
 					vanilla JavaScript.
-				</p>
+				</Project>
 				<Contact />
 			</main>
 		</>
