@@ -80,17 +80,12 @@ const IndexPage = () => {
 					laoreet. Donec eget bibendum tellus, vitae laoreet lectus.
 				</p>
 				<h3>Nutrizone</h3>
+				<img src="https://jakethrasher.netlify.app/assets/nutrizone.png"/>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
-					varius tellus sit amet sagittis. In nec elit sodales, ornare nunc sed,
-					tristique leo. Donec non lacus sem. Morbi rutrum nec purus non
-					facilisis. Donec molestie sagittis efficitur. Etiam nec interdum
-					lacus. Donec vel urna quis ex luctus tincidunt non sollicitudin
-					sapien. Sed non risus et metus pharetra scelerisque. Pellentesque
-					habitant morbi tristique senectus et netus et malesuada fames ac
-					turpis egestas. Vestibulum mattis urna mi, at vestibulum libero
-					faucibus ac. Cras ultricies nulla a quam interdum, ac porttitor metus
-					laoreet. Donec eget bibendum tellus, vitae laoreet lectus.
+					Nutrizone helps users track their daily caloric intake based on their preferred diet type.
+					We provide tabular data and bar charts built with CanvasJS to help the user 
+					meet their daily macronutrient goals. Built remotely with a team of four people
+					over a four-day sprint using vanilla JavaScript.
 				</p>
 				<h1 id="contact">Contact</h1>
 				<form onSubmit={() => console.log('works')}>
