@@ -12,3 +12,9 @@ form {
 	color: rgb(41, 41, 41) 0%;
 	border-radius: 4px;
 }
+
+input {
+	box-sizing: border-box;
+	width: 297px;
+	margin-bottom: 10px;
+}

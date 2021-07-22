@@ -7,9 +7,9 @@ export const Contact = () => {
 		<>
 			<Header id="contact">Contact</Header>
 			<form onSubmit={() => console.log('works')}>
-				<input type="text" placeholder="name" />
 				<input type="email" placeholder="email" />
-				<textarea placeholder="message..." rows="5" cols="60" />
+				<input type="text" placeholder="name" />
+				<textarea placeholder="message..." rows="5" cols="35" />
 				<Button>Submit</Button>
 			</form>
 		</>

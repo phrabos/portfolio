@@ -24,6 +24,7 @@ body {
 p {
 	margin: 16px auto;
 	line-height: 1.5em;
+	width: 50vw;
 }
 
 main {

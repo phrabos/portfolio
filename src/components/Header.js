@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/global.css';
 
-export const Header = ({ children }) => {
-	return <h1>{children}</h1>;
+export const Header = ({ children, id }) => {
+	return <h1 id={id}>{children}</h1>;
 };
