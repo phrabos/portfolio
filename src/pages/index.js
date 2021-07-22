@@ -15,6 +15,7 @@ const IndexPage = () => {
 					I am a software engineer with a background crunching numbers and raising capital as a skilled and accomplished accountant where I gained valuable business experience and problem-solving skills.  My passion for coding began as a kid, writing basic 					websites in HTML. I am excited to be able to merge my business knowledge into a career as a software engineer. Outside of work, I 				am an avid runner and by grinding through ultra-endurance feats I have learned lessons in perseverance, discipline, and dedication 				which I have used to take on challenging projects in the workforce. I am on a never-ending quest to learn everything. 
 
 				</p>
+				<img src="https://avatars.githubusercontent.com/u/73199651?s=400&u=d36d92e05c949994580702381836a52f7e512eb1&v=4"/>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
 					varius tellus sit amet sagittis. In nec elit sodales, ornare nunc sed,
