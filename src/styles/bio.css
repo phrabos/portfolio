@@ -2,8 +2,34 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 50vw;
+	width: 85vw;
 	margin-bottom: 50px;
-	height: calc(100vh - 54px);
+	height: auto;
 	margin: 0 auto;
+	padding-top: 54px;
+	position: relative;
 }
+
+.bio-photo {
+	max-width: 320px;
+}
+
+@media screen and (max-width: 768px) {
+	.bio-photo {
+		width: 70vw;
+		display: block;
+		margin: 0 auto;
+	}
+}
+/* 
+aboutContainer {
+	padding-top: 54px;
+	position: relative;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	justify-content: center;
+	height: calc(100vh - 54px);
+	width: 85vw;
+	margin: 0 auto;
+} */

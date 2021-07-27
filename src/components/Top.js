@@ -7,12 +7,21 @@ export const Top = () => {
 	return (
 		<section className="top-container">
 			<h1 style={{ fontSize: '8vw' }}>Patrick Hrabos</h1>
-			<h2 style={{ fontSize: '4vw' }}>
+			<h2
+				style={{
+					fontSize: '4vw',
+					paddingBottom: '3rem',
+				}}
+			>
 				Software engineer passionate about the process of coding, from planning
 				to deployment and learning along the way.
 			</h2>
 			<AnchorLink to="/#about">
-				<BsArrowDownShort size="4rem" style={{ color: 'white' }} />
+				<BsArrowDownShort
+					className="arrow"
+					size="4rem"
+					style={{ color: 'white' }}
+				/>
 			</AnchorLink>
 		</section>
 	);
