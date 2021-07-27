@@ -19,6 +19,7 @@
 }
 .summary {
 	font-size: clamp(1.6rem, 4vw, 3rem);
+	padding-bottom: 3rem;
 }
 
 .arrow {
