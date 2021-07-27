@@ -5,7 +5,6 @@
 	width: 85vw;
 	margin-bottom: 50px;
 	height: auto;
-	margin: 0 auto;
 	padding-top: 54px;
 	position: relative;
 }
@@ -15,10 +14,16 @@
 }
 
 @media screen and (max-width: 768px) {
-	.bio-photo {
-		width: 70vw;
-		display: block;
-		margin: 0 auto;
+	.bio-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 85vw;
+		margin-bottom: 50px;
+		height: auto;
+		padding-top: 54px;
+		position: relative;
 	}
 }
 /* 
