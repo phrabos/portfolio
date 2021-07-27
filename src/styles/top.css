@@ -2,16 +2,33 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	/* grid-gap: 3rem; */
-	/* gap: 3rem; */
 	align-items: center;
 	height: 100vh;
 	width: 85vw;
-	margin: 0 auto;
+}
+.inner-top {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 65vh;
+}
+.name {
+	font-size: clamp(3rem, 8vw, 5rem);
+	margin-bottom: 3rem;
+	/* padding-bottom: 10rem; */
+}
+.summary {
+	/* font-size: '4vw'; */
+	font-size: clamp(1.6rem, 4vw, 3rem);
+	/* font-size: 1.5rem; */
+	/* padding-top: 6rem;
+	padding-bottom: 3rem; */
 }
 
 .arrow {
-	/* cursor: pointer; */
+	color: white;
 	position: absolute;
 	bottom: 0;
+	left: 50%;
 }
