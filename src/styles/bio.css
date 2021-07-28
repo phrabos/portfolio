@@ -6,7 +6,7 @@
 	margin-bottom: 50px;
 	height: auto;
 	padding-top: 54px;
-	position: relative;
+	/* position: relative; */
 }
 
 .bio-photo {
@@ -25,7 +25,7 @@
 		margin-bottom: 50px;
 		height: auto;
 		padding-top: 54px;
-		position: relative;
+		/* position: relative; */
 	}
 }
 /* 
