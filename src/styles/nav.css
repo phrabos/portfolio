@@ -25,6 +25,8 @@ nav {
 	text-decoration: none;
 	list-style: none;
 	padding-top: 24px;
+	z-index: 99;
+	background: rgb(41, 41, 41) 0%;
 }
 
 .links li {

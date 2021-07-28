@@ -40,12 +40,7 @@ export const Navbar = () => {
 							</a>
 						</li>
 						<li>
-							<a
-								className="anchors"
-								href="https://www.https://patrickhrabosportfolio.gatsbyjs.io/resume"
-								target="_blank"
-								rel="noreferrer"
-							>
+							<a className="anchors" href="/resume">
 								Resume
 							</a>
 						</li>
