@@ -10,12 +10,14 @@ import socket from '../images/socket-jockey.png';
 import nutrizone from '../images/nutrizone.png';
 import taurus from '../images/taurus-trading.png';
 import shamebot from '../images/shame-bot.png';
+import { UpArrow } from '../components/UpArrow';
 
 const IndexPage = () => {
 	return (
 		<>
 			<Navbar />
-			<main>
+			<main id="top">
+				<UpArrow />
 				<Top />
 				<Header id="about">About</Header>
 				<Bio />

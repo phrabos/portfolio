@@ -5,6 +5,7 @@
 	width: 85vw;
 	height: calc(100vh - 54px);
 	padding-top: 54px;
+	position: relative;
 }
 
 @media screen and (max-width: 768px) {

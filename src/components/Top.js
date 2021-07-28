@@ -13,7 +13,6 @@ export const Top = () => {
 					planning to deployment and learning along the way.
 				</h2>
 			</div>
-
 			<AnchorLink to="/#about">
 				<BsArrowDownShort className="arrow" size="4rem" />
 			</AnchorLink>

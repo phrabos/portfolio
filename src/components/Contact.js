@@ -1,6 +1,8 @@
 import React from 'react';
+// import { BsArrowUpShort } from 'react-icons/bs';
 import { Button } from './Button';
 import { Header } from './Header';
+import '../styles/form.css';
 
 export const Contact = () => {
 	return (
