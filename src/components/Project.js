@@ -5,7 +5,7 @@ import githubLogo from '../images/github.png';
 export const Project = ({ children, image, name, alt, link, github }) => {
 	return (
 		<section className="project-wrapper">
-			<h3>{name}</h3>
+			<h2>{name}</h2>
 			<a href={link} target="_blank" rel="noreferrer">
 				<img className="project-image" src={image} alt={alt} />
 			</a>

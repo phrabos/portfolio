@@ -4,7 +4,7 @@ import { Header } from './Header';
 
 export const Contact = () => {
 	return (
-		<>
+		<section className="contact-wrapper">
 			<Header id="contact">Contact</Header>
 			<form onSubmit={() => console.log('works')}>
 				<input type="email" placeholder="email" />
@@ -12,6 +12,6 @@ export const Contact = () => {
 				<textarea placeholder="message..." rows="5" cols="35" />
 				<Button>Submit</Button>
 			</form>
-		</>
+		</section>
 	);
 };

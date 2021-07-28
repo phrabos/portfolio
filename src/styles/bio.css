@@ -18,10 +18,8 @@
 	.bio-wrapper {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
 		width: 85vw;
-		margin-bottom: 50px;
 		height: auto;
 		padding-top: 54px;
 	}

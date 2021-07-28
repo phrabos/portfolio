@@ -11,6 +11,14 @@ nav {
 	background: rgb(41, 41, 41) 0%;
 }
 
+.nav-links {
+	margin-left: 20px;
+	font-weight: 400;
+	padding-bottom: 8px;
+	border-bottom: 3px solid transparent;
+	width: 4rem;
+}
+
 nav a {
 	margin-left: 20px;
 	font-weight: 400;
@@ -25,5 +33,9 @@ a:active {
 }
 
 nav a:hover {
+	border-color: salmon;
+}
+
+.nav-links:hover {
 	border-color: salmon;
 }
