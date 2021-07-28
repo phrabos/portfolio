@@ -17,6 +17,18 @@ nav {
 	padding-bottom: 8px;
 	border-bottom: 3px solid transparent;
 	width: 4rem;
+	position: relative;
+}
+.links {
+	position: absolute;
+	height: fit-content;
+	text-decoration: none;
+	list-style: none;
+	padding-top: 24px;
+}
+
+.links li {
+	padding-bottom: 5px;
 }
 
 nav a {
@@ -34,6 +46,13 @@ a:active {
 
 nav a:hover {
 	border-color: salmon;
+}
+
+nav .anchors {
+	margin-left: 0px;
+	font-weight: 400;
+	padding-bottom: 0px;
+	border-bottom: none;
 }
 
 .nav-links:hover {

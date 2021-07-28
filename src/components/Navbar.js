@@ -14,16 +14,42 @@ export const Navbar = () => {
 				className="nav-links"
 				onMouseEnter={() => setHover(true)}
 				onMouseLeave={() => setHover(false)}
+				aria-hidden="true"
 			>
 				links
 				{hover && (
-					<div>
-						<ul>
-							<li>gitHub</li>
-							<li>linkedIn</li>
-							<li>resume</li>
-						</ul>
-					</div>
+					<ul className="links">
+						<li>
+							<a
+								className="anchors"
+								href="https://github.com/phrabos"
+								target="_blank"
+								rel="noreferrer"
+							>
+								GitHub
+							</a>
+						</li>
+						<li>
+							<a
+								className="anchors"
+								href="https://www.linkedin.com/in/patrick-hrabos/"
+								target="_blank"
+								rel="noreferrer"
+							>
+								LinkedIn
+							</a>
+						</li>
+						<li>
+							<a
+								className="anchors"
+								href="https://www.https://patrickhrabosportfolio.gatsbyjs.io/resume"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Resume
+							</a>
+						</li>
+					</ul>
 				)}
 			</div>
 		</nav>
