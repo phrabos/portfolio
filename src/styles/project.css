@@ -6,3 +6,26 @@
 .github-logo {
 	height: 48px;
 }
+
+.project-wrapper {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	width: 85vw;
+	height: calc(100vh - 54px);
+	padding-top: 54px;
+}
+
+/* @media screen and (max-width: 768px) {
+	.project-wrapper {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		width: 85vw;
+		margin-bottom: 50px;
+		height: auto;
+		padding-top: 54px;
+	}
+} */
