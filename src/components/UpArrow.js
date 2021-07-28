@@ -6,6 +6,8 @@ import '../styles/uparrow.css';
 export const UpArrow = () => {
 	const [showScroll, setShowScroll] = useState(false);
 
+	const isBrowser = typeof window !== 'undefined';
+
 	const checkScrollTop = () => {
 		if (!showScroll && window.pageYOffset > 800) {
 			setShowScroll(true);
@@ -18,7 +20,9 @@ export const UpArrow = () => {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	};
 
-	window.addEventListener('scroll', checkScrollTop);
+	if (isBrowser) {
+		window.addEventListener('scroll', checkScrollTop);
+	}
 	return (
 		<div className="up-arrow-wrapper">
 			<BsArrowUpShort
