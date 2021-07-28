@@ -22,10 +22,9 @@ body {
 }
 
 p {
-	margin: 16px auto;
+	/* margin: 16px auto; */
 	line-height: 1.5em;
-	/* width: 50vw; */
-	font-size: clamp(12px, 1.8vw, 22px);
+	font-size: clamp(16px, 1.4vw, 20px);
 }
 
 main {
@@ -35,10 +34,4 @@ main {
 	justify-content: center;
 	margin: 0 auto;
 	width: 100%;
-}
-
-img {
-	height: 350px;
-	width: 500px;
-	border-radius: 4px;
 }

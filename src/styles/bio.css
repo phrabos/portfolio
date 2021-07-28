@@ -11,12 +11,14 @@
 
 .bio-photo {
 	max-width: 320px;
+	max-height: 320px;
+	border-radius: 4px;
 }
 
 @media screen and (max-width: 768px) {
 	.bio-wrapper {
 		display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
 		width: 85vw;
