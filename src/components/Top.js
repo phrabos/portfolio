@@ -12,7 +12,7 @@ export const Top = () => {
 					Software engineer passionate about the process of coding, from
 					planning to deployment and learning along the way.
 				</h2>
-				<AnchorLink className="arrow" to="/#projects">
+				<AnchorLink className="arrow bounce-1" to="/#projects">
 					<BsArrowDownShort size="6rem" />
 				</AnchorLink>
 			</div>

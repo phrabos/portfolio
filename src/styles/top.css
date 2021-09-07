@@ -34,10 +34,29 @@
 .arrow {
 	color: white;
 	display: flex;
-	/* height: 200px; */
-	/* align-self: flex-end; */
-	/* justify-self: last baseline; */
 	margin-top: auto;
+}
+
+.bounce-1 {
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-name: bounce-1;
+	animation-timing-function: ease;
+}
+
+@keyframes bounce-1 {
+	0% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	50% {
+		transform: translateY(50px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
 
 /* @media screen and (max-width: 768px) {

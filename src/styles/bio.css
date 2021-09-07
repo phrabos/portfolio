@@ -4,7 +4,8 @@
 	align-items: center;
 	width: 85vw;
 	/* padding-top: 100px; */
-	height: calc(100vh - 25px);
+	/* height: calc(100vh - 225px); */
+	height: 100vh;
 	padding-top: 25px;
 }
 
