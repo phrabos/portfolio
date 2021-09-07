@@ -2,21 +2,21 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0px auto;
 	color: white;
-	font-size: 1.2rem;
+	font-size: clamp(18px, 4vw, 1.5rem);
+	font-weight: 800;
 	position: sticky;
 	top: 0;
-	height: 80px;
-	background: rgb(41, 41, 41) 0%;
+	height: 100px;
+	background: #9fafaf;
+	width: 100vw;
 }
 
 .nav-links {
 	margin-left: 20px;
-	font-weight: 400;
-	padding-bottom: 8px;
+	padding: 8px;
 	border-bottom: 3px solid transparent;
-	width: 4rem;
+	/* width: 4rem; */
 	position: relative;
 }
 
@@ -25,9 +25,10 @@ nav {
 	height: fit-content;
 	text-decoration: none;
 	list-style: none;
-	padding-top: 24px;
+	padding: 12px;
 	z-index: 99;
 	background: rgb(41, 41, 41) 0%;
+	border: 1px solid white;
 }
 
 .links li {
@@ -36,8 +37,7 @@ nav {
 
 nav a {
 	margin-left: 20px;
-	font-weight: 400;
-	padding-bottom: 8px;
+	padding: 8px;
 	border-bottom: 3px solid transparent;
 }
 
@@ -48,20 +48,19 @@ a:active {
 }
 
 nav a:hover {
-	border-color: salmon;
+	background-color: #cc9393;
 }
 
 nav .anchors {
 	margin-left: 0px;
-	font-weight: 400;
 	padding-bottom: 0px;
 	border-bottom: 3px solid transparent;
 }
 
 .nav-links:hover {
-	border-color: salmon;
+	border-color: #cc9393;
 }
 
 .anchors:hover {
-	border-color: salmon;
+	border-color: #cc9393;
 }
