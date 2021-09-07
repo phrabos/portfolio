@@ -27,9 +27,9 @@ export const UpArrow = () => {
 		<div className="up-arrow-wrapper">
 			<BsArrowUpShort
 				onClick={scrollTop}
-				className="up-arrow"
-				size="4rem"
-				style={{ height: '4rem', display: showScroll ? 'block' : 'none' }}
+				className="up-arrow bounce-1"
+				size="6rem"
+				style={{ height: '6rem', display: showScroll ? 'block' : 'none' }}
 			/>
 		</div>
 	);
