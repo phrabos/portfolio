@@ -6,8 +6,13 @@ export const Project = ({ children, image, name, alt, link, github }) => {
 	return (
 		<section className="project-wrapper">
 			<div className="project-name">
-				<h2>{name}</h2>
-				<a href={github} target="_blank" rel="noreferrer">
+				<h2 className="project-name">{name}</h2>
+				<a
+					className="github-link"
+					href={github}
+					target="_blank"
+					rel="noreferrer"
+				>
 					<img className="github-logo" src={githubLogo} alt="github logo" />
 				</a>
 			</div>

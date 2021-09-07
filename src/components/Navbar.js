@@ -7,8 +7,8 @@ export const Navbar = () => {
 
 	return (
 		<nav>
-			<AnchorLink to="/#about">about</AnchorLink>
 			<AnchorLink to="/#projects">projects</AnchorLink>
+			<AnchorLink to="/#about">about</AnchorLink>
 			<AnchorLink to="/#contact">contact</AnchorLink>
 			<div
 				className="nav-links"

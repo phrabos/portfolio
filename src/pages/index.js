@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Bio } from '../components/Bio';
 import { Contact } from '../components/Contact';
-import { Header } from '../components/Header';
 import { Navbar } from '../components/Navbar';
 import { Top } from '../components/Top';
 import '../styles/global.css';
@@ -15,7 +14,6 @@ const IndexPage = () => {
 			<main id="top">
 				<UpArrow />
 				<Top />
-				<Header id="projects">Projects</Header>
 				<ProjectList />
 				<Bio />
 				<Contact />

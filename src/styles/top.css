@@ -12,7 +12,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/* height: 65vh; */
+	height: 65vh;
 }
 .name {
 	font-size: clamp(3rem, 8vw, 8rem);
@@ -23,11 +23,21 @@
 	/* padding-bottom: 3rem; */
 }
 
-.arrow {
+/* .arrow {
 	color: white;
 	position: absolute;
 	bottom: 50px;
 	left: 50%;
+	z-index: 0;
+} */
+
+.arrow {
+	color: white;
+	display: flex;
+	/* height: 200px; */
+	/* align-self: flex-end; */
+	/* justify-self: last baseline; */
+	margin-top: auto;
 }
 
 /* @media screen and (max-width: 768px) {

@@ -12,8 +12,8 @@ export const Top = () => {
 					Software engineer passionate about the process of coding, from
 					planning to deployment and learning along the way.
 				</h2>
-				<AnchorLink to="/#about">
-					<BsArrowDownShort className="arrow" size="4rem" />
+				<AnchorLink className="arrow" to="/#projects">
+					<BsArrowDownShort size="6rem" />
 				</AnchorLink>
 			</div>
 		</section>
