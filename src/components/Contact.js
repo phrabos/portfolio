@@ -73,7 +73,7 @@ export const Contact = () => {
 						Thank you for reaching out!
 					</section>
 				)}
-				<Header id="contact">Contact</Header>
+				<Header id="contact">Let's Connect</Header>
 				<div className="icon-div">
 					<a href="https://github.com/phrabos" target="_blank" rel="noreferrer">
 						<AiFillGithub size="4rem" />
