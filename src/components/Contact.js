@@ -14,7 +14,8 @@ export const Contact = () => {
 
 	function handleFormSubmit(event) {
 		event.preventDefault();
-		fetch(`${process.env.GATSBY_API_URL}`, {
+
+		fetch('https://hrabos-portfolio-server.herokuapp.com/', {
 			method: 'POST',
 			body: JSON.stringify({
 				email: emailInput,
@@ -23,6 +24,9 @@ export const Contact = () => {
 			}),
 			headers: { 'Content-Type': 'application/json' },
 		});
+		setEmailInput('');
+		setNameInput('');
+		setMessageInput('');
 	}
 	return (
 		<>
