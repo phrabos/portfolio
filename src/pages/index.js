@@ -12,11 +12,11 @@ const IndexPage = () => {
 		<>
 			<Navbar />
 			<main id="top">
-				<UpArrow />
 				<Top />
 				<ProjectList />
 				<Bio />
 				<Contact />
+				<UpArrow />
 			</main>
 		</>
 	);

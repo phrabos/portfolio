@@ -16,6 +16,10 @@
 	justify-content: flex-end;
 }
 
+.hide {
+	display: none;
+}
+
 .bounce-1 {
 	animation-duration: 4s;
 	animation-iteration-count: infinite;

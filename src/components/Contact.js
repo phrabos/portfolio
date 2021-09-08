@@ -7,8 +7,8 @@ import '../styles/form.css';
 export const Contact = () => {
 	return (
 		<section className="contact-wrapper">
+			<Header id="contact">Contact</Header>
 			<div className="inner-container">
-				<Header id="contact">Contact</Header>
 				<form onSubmit={() => console.log('works')}>
 					<input type="email" placeholder="email" />
 					<input type="text" placeholder="name" />

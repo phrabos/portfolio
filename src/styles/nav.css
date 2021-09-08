@@ -3,7 +3,7 @@ nav {
 	justify-content: center;
 	align-items: center;
 	color: white;
-	font-size: clamp(16px, 4vw, 1.5rem);
+	font-size: clamp(1rem, 4vw, 1.5rem);
 	font-weight: 800;
 	position: sticky;
 	top: 0;
@@ -14,8 +14,8 @@ nav {
 }
 
 .nav-links {
-	margin-left: 20px;
-	padding: 8px;
+	margin-left: 1.2rem;
+	padding: 0.5rem;
 	/* border-bottom: 3px solid transparent; */
 	/* width: 4rem; */
 	position: relative;
@@ -23,23 +23,40 @@ nav {
 
 .links {
 	position: absolute;
-	margin-top: 9px;
+	margin-top: 0.55rem;
 	height: fit-content;
 	text-decoration: none;
 	list-style: none;
-	padding: 12px;
+	padding: 0.75rem;
 	z-index: 99;
 	background: rgb(41, 41, 41) 0%;
 	border: 1px solid white;
 }
 
+@media screen and (max-width: 600px) {
+	.links {
+		/* position: absolute;
+		left: 0px; */
+		display: flex;
+		flex-direction: column;
+		margin-top: 0.55rem;
+		height: fit-content;
+		text-decoration: none;
+		list-style: none;
+		padding: 0.75rem;
+		z-index: 99;
+		background: rgb(41, 41, 41) 0%;
+		border: 1px solid white;
+	}
+}
+
 .links li {
-	padding-bottom: 5px;
+	padding-bottom: 0.3rem;
 }
 
 nav a {
-	margin-left: 20px;
-	padding: 8px;
+	margin-left: 1.25rem;
+	padding: 0.5rem;
 	border-bottom: 3px solid transparent;
 }
 
