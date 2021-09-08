@@ -7,7 +7,6 @@ export const Bio = () => {
 		<>
 			<Header id="about">About</Header>
 			<section className="bio-wrapper">
-				{/* <h1>About2</h1> */}
 				<img
 					className="bio-photo"
 					src="https://avatars.githubusercontent.com/u/73199651?s=400&u=d36d92e05c949994580702381836a52f7e512eb1&v=4"

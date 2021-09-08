@@ -8,7 +8,7 @@
 }
 html,
 body {
-	min-height: 100%;
+	/* min-height: 100%; */
 	color: white;
 	box-sizing: border-box;
 }
@@ -35,5 +35,4 @@ main {
 	justify-content: center;
 	margin: 0 auto;
 	width: 100%;
-	position: relative;
 }

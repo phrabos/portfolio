@@ -16,7 +16,7 @@
 }
 .name {
 	font-size: clamp(3rem, 8vw, 8rem);
-	margin-bottom: 3rem;
+	margin-bottom: 0.35em;
 }
 .summary {
 	font-size: clamp(1.6rem, 4vw, 4rem);
