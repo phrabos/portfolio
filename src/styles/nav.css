@@ -10,6 +10,7 @@ nav {
 	height: 100px;
 	background: #9fafaf;
 	width: 100vw;
+	z-index: 2;
 }
 
 .nav-links {
