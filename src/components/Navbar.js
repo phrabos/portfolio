@@ -40,7 +40,12 @@ export const Navbar = () => {
 							</a>
 						</li>
 						<li>
-							<a className="anchors" href="/resume">
+							<a
+								className="anchors"
+								href="resume.pdf"
+								target="_blank"
+								rel="noreferrer"
+							>
 								Resume
 							</a>
 						</li>

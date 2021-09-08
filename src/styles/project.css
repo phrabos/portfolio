@@ -34,6 +34,7 @@
 	flex-direction: column;
 	align-items: center;
 	width: 400px;
+	margin-right: 25px;
 }
 .project-name {
 	width: 100%;
