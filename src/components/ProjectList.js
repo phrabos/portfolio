@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/project.css';
 import { Project } from './Project';
 import socket from '../images/socket-jockey.gif';
-import nutrizone from '../images/nutrizone.gif';
+import nutrizone from '../images/nutrizone.png';
 import taurus from '../images/taurus-trading.gif';
 import shamebot from '../images/shame-bot.png';
 import { Header } from './Header';
