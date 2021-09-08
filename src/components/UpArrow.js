@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { BsArrowUpShort } from '@react-icons/all-files/bs/BsArrowUpShort';
-// import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import '../styles/uparrow.css';
 
 export const UpArrow = () => {
@@ -29,7 +28,6 @@ export const UpArrow = () => {
 				onClick={scrollTop}
 				className={showScroll ? 'up-arrow bounce-1' : 'hide'}
 				size="6rem"
-				// style={{ display: showScroll ? 'block' : 'none' }}
 			/>
 		</div>
 	);

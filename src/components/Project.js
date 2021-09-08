@@ -16,11 +16,9 @@ export const Project = ({ children, image, name, alt, link, github }) => {
 					<img className="github-logo" src={githubLogo} alt="github logo" />
 				</a>
 			</div>
-
 			<a href={link} target="_blank" rel="noreferrer">
 				<img className="project-image" src={image} alt={alt} />
 			</a>
-
 			<p>{children}</p>
 		</section>
 	);

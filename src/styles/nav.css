@@ -16,8 +16,6 @@ nav {
 .nav-links {
 	margin-left: 1.2rem;
 	padding: 0.5rem;
-	/* border-bottom: 3px solid transparent; */
-	/* width: 4rem; */
 	position: relative;
 }
 
@@ -35,8 +33,6 @@ nav {
 
 @media screen and (max-width: 600px) {
 	.links {
-		/* position: absolute;
-		left: 0px; */
 		display: flex;
 		flex-direction: column;
 		margin-top: 0.55rem;

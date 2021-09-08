@@ -1,13 +1,9 @@
 .bio-wrapper {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	align-items: center;
 	width: 85vw;
-	/* padding-top: 100px; */
 	height: calc(100vh - 180px);
-	/* height: 100vh; */
-	/* padding-top: 25px; */
 }
 
 .bio-photo {
@@ -23,14 +19,3 @@
 #about {
 	padding-top: 40px;
 }
-
-/* @media screen and (max-width: 768px) {
-	.bio-wrapper {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 100vw;
-		height: auto;
-		padding-top: 54px;
-	}
-} */

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { VscFilePdf } from 'react-icons/vsc';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { Button } from './Button';
 import { Header } from './Header';
 import '../styles/form.css';
@@ -7,51 +9,119 @@ export const Contact = () => {
 	const [emailInput, setEmailInput] = useState('');
 	const [nameInput, setNameInput] = useState('');
 	const [messageInput, setMessageInput] = useState('');
-
-	function handleEmailInputChange(event) {
-		setEmailInput(event.target.value);
-	}
+	const [formErrors, setFormErrors] = useState({});
+	const [formSuccess, setFormSuccess] = useState(false);
 
 	function handleFormSubmit(event) {
 		event.preventDefault();
+		const formErrors = validate(emailInput, nameInput, messageInput);
+		console.log(formErrors);
+		if (Object.keys(formErrors).length === 0) {
+			console.log('form submitted');
+			fetch('https://hrabos-portfolio-server.herokuapp.com/', {
+				method: 'POST',
+				body: JSON.stringify({
+					email: emailInput,
+					name: nameInput,
+					message: messageInput,
+				}),
+				headers: { 'Content-Type': 'application/json' },
+			})
+				.then((res) => {
+					if (res.status === 200) {
+						setFormSuccess(true);
+						setTimeout(() => {
+							setFormSuccess(false);
+						}, 5000);
+					}
+				})
+				.catch((err) => console.error(err));
+			setEmailInput('');
+			setNameInput('');
+			setMessageInput('');
+			setFormErrors({});
+		} else {
+			setFormErrors(formErrors);
+		}
+	}
 
-		fetch('https://hrabos-portfolio-server.herokuapp.com/', {
-			method: 'POST',
-			body: JSON.stringify({
-				email: emailInput,
-				name: nameInput,
-				message: messageInput,
-			}),
-			headers: { 'Content-Type': 'application/json' },
-		});
-		setEmailInput('');
-		setNameInput('');
-		setMessageInput('');
+	function validate(email, name, message) {
+		let errors = {};
+		const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		if (!email) {
+			errors.email = 'Email cannot be blank';
+		} else if (!regex.test(email)) {
+			errors.email = 'Invalid email format';
+		}
+		if (!name) {
+			errors.name = 'Name cannot be blank';
+		} else if (name.length <= 1) {
+			errors.name = 'Name must be more than 2 characters';
+		}
+		if (!message) {
+			errors.message = 'Message cannot be blank';
+		} else if (message.length >= 256) {
+			errors.message = 'Message must be less than 256 characters';
+		}
+		return errors;
 	}
 	return (
 		<>
 			<section className="contact-wrapper">
+				{formSuccess && (
+					<section className="success-message">
+						Thank you for reaching out!
+					</section>
+				)}
 				<Header id="contact">Contact</Header>
+				<div className="icon-div">
+					<a href="https://github.com/phrabos" target="_blank" rel="noreferrer">
+						<AiFillGithub size="4rem" />
+					</a>
+					<a
+						href="https://www.linkedin.com/in/patrick-hrabos/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<AiFillLinkedin size="4rem" />
+					</a>
+					<a href="resume.pdf" target="_blank" rel="noreferrer">
+						<VscFilePdf size="4rem" />
+					</a>
+				</div>
+
 				<div className="inner-container">
 					<form onSubmit={handleFormSubmit}>
 						<input
 							value={emailInput}
 							type="email"
+							name="email"
 							placeholder="email"
-							onChange={(e) => setEmailInput(e.target.value)}
+							onChange={(event) => setEmailInput(event.target.value)}
 						/>
+						{formErrors.email && (
+							<span style={{ color: '#cc9393' }}>{formErrors.email}</span>
+						)}
 						<input
 							value={nameInput}
 							type="text"
+							name="name"
 							placeholder="name"
-							onChange={(e) => setNameInput(e.target.value)}
+							onChange={(event) => setNameInput(event.target.value)}
 						/>
+						{formErrors.name && (
+							<span style={{ color: '#cc9393' }}>{formErrors.name}</span>
+						)}
 						<textarea
 							value={messageInput}
+							name="message"
 							placeholder="message..."
 							rows="6"
-							onChange={(e) => setMessageInput(e.target.value)}
+							onChange={(event) => setMessageInput(event.target.value)}
 						/>
+						{formErrors.message && (
+							<span style={{ color: '#cc9393' }}>{formErrors.message}</span>
+						)}
 						<Button>Submit</Button>
 					</form>
 				</div>
