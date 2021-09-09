@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { VscFilePdf } from 'react-icons/vsc';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { SiPostgresql } from 'react-icons/si';
 import { Button } from './Button';
 import { Header } from './Header';
 import '../styles/form.css';
