@@ -4,6 +4,7 @@ module.exports = {
 		title: 'Patrick Hrabos portfolio',
 	},
 	plugins: [
+		`gatsby-plugin-react-helmet`,
 		'gatsby-plugin-gatsby-cloud',
 		{
 			resolve: 'gatsby-plugin-anchor-links',
