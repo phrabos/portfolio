@@ -8,9 +8,9 @@ export const UpArrow = () => {
 	const isBrowser = typeof window !== 'undefined';
 
 	const checkScrollTop = () => {
-		if (!showScroll && window.pageYOffset > 800) {
+		if (!showScroll && window.pageYOffset > 750) {
 			setShowScroll(true);
-		} else if (showScroll && window.pageYOffset <= 800) {
+		} else if (showScroll && window.pageYOffset <= 750) {
 			setShowScroll(false);
 		}
 	};

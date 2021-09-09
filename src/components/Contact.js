@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { VscFilePdf } from 'react-icons/vsc';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { SiPostgresql } from 'react-icons/si';
 import { Button } from './Button';
 import { Header } from './Header';
 import '../styles/form.css';
@@ -11,13 +12,13 @@ export const Contact = () => {
 	const [messageInput, setMessageInput] = useState('');
 	const [formErrors, setFormErrors] = useState({});
 	const [formSuccess, setFormSuccess] = useState(false);
+	const [loading, setLoading] = useState(false);
 
 	function handleFormSubmit(event) {
 		event.preventDefault();
 		const formErrors = validate(emailInput, nameInput, messageInput);
-		console.log(formErrors);
 		if (Object.keys(formErrors).length === 0) {
-			console.log('form submitted');
+			setLoading(true);
 			fetch('https://hrabos-portfolio-server.herokuapp.com/', {
 				method: 'POST',
 				body: JSON.stringify({
@@ -29,6 +30,7 @@ export const Contact = () => {
 			})
 				.then((res) => {
 					if (res.status === 200) {
+						setLoading(false);
 						setFormSuccess(true);
 						setTimeout(() => {
 							setFormSuccess(false);
@@ -41,6 +43,7 @@ export const Contact = () => {
 			setMessageInput('');
 			setFormErrors({});
 		} else {
+			setLoading(false);
 			setFormErrors(formErrors);
 		}
 	}
@@ -68,11 +71,6 @@ export const Contact = () => {
 	return (
 		<>
 			<section className="contact-wrapper">
-				{formSuccess && (
-					<section className="success-message">
-						Thank you for reaching out!
-					</section>
-				)}
 				<Header id="contact">Let's Connect</Header>
 				<div className="icon-div">
 					<a href="https://github.com/phrabos" target="_blank" rel="noreferrer">
@@ -124,6 +122,12 @@ export const Contact = () => {
 						)}
 						<Button>Submit</Button>
 					</form>
+					{loading && <section className="loading">Sending message...</section>}
+					{formSuccess && (
+						<section className="success-message">
+							Thank you for reaching out!
+						</section>
+					)}
 				</div>
 			</section>
 		</>
