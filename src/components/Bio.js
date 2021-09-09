@@ -13,12 +13,12 @@ export const Bio = () => {
 					alt="portrait"
 				/>
 				<p className="bio-text">
-					I have a background raising capital as a skilled and accomplished
+					I have a background in raising capital as a skilled and accomplished
 					accountant where I gained valuable business experience and teamwork
 					skills by solving the daily challenges of growth that start-up
-					companies often face. I have a well-rounded approach to timely solving
-					big problems by breaking them down into small, manageable pieces and
-					being diligent throughout the process.
+					companies often face. I have a well-rounded approach to solving big
+					problems by diligently breaking them down into small, manageable
+					pieces.
 					<br />
 					<br />
 					When I am not coding I like to run long distances, observe nature,

@@ -64,6 +64,14 @@ textarea {
 	width: 350px;
 }
 
+.logos {
+	transition: all 0.2s ease-in-out;
+}
+.logos:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
 #contact {
 	margin-bottom: 1.5em;
 }

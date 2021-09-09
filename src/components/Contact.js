@@ -74,17 +74,17 @@ export const Contact = () => {
 				<Header id="contact">Let's Connect</Header>
 				<div className="icon-div">
 					<a href="https://github.com/phrabos" target="_blank" rel="noreferrer">
-						<AiFillGithub size="4rem" />
+						<AiFillGithub size="4rem" className="logos" />
 					</a>
 					<a
 						href="https://www.linkedin.com/in/patrick-hrabos/"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<AiFillLinkedin size="4rem" />
+						<AiFillLinkedin size="4rem" className="logos" />
 					</a>
 					<a href="resume.pdf" target="_blank" rel="noreferrer">
-						<VscFilePdf size="4rem" />
+						<VscFilePdf size="4rem" className="logos" />
 					</a>
 				</div>
 
