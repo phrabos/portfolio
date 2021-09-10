@@ -12,5 +12,15 @@ module.exports = {
 				offset: -80,
 			},
 		},
+		{
+			resolve: 'gatsby-plugin-favicons',
+			options: {
+				logo: './src/images/favicon.ico',
+				appName: 'My Website',
+				icons: {
+					favicons: true,
+				},
+			},
+		},
 	],
 };
