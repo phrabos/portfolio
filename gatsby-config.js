@@ -1,7 +1,8 @@
 module.exports = {
 	siteMetadata: {
-		siteUrl: 'https://www.yourdomain.tld',
+		siteUrl: 'patrick-hrabos.dev',
 		title: 'Patrick Hrabos portfolio',
+		favicon: './static/favicon.ico',
 	},
 	plugins: [
 		`gatsby-plugin-react-helmet`,
