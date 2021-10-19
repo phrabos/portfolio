@@ -82,7 +82,7 @@ export const Contact = () => {
 					>
 						<AiFillLinkedin size="4rem" className="logos" />
 					</a>
-					<a href="resume.pdf" target="_blank" rel="noreferrer">
+					<a href="ph.pdf" target="_blank" rel="noreferrer">
 						<VscFilePdf size="4rem" className="logos" />
 					</a>
 				</div>
