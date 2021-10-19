@@ -12,7 +12,22 @@ const IndexPage = () => {
 	return (
 		<>
 			<Helmet>
+				<html lang="en" />
 				<title>Patrick Hrabos</title>
+				<meta name="description" content="Patrick Hrabo portfolio" />
+				<meta name="title" property="og:title" content="Patrick Hrabos" />
+				<meta property="og:type" content="Webiste" />
+				<meta
+					name="image"
+					property="og:image"
+					content="https://res.cloudinary.com/dyefz2bep/image/upload/v1634616673/Screenshot-20211018210627-2672x1244_aopf5o.png"
+				/>
+				<meta
+					name="description"
+					property="og:description"
+					content="Patrick Hrabo portfolio"
+				/>
+				<meta name="author" content="Patrick Hrabos" />
 			</Helmet>
 			<Navbar />
 			<main id="top">
